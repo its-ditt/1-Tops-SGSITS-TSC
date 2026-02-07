@@ -1,2 +1,4 @@
 # 1-Tops-SGSITS-TSC
-1TOPS project Progress by Divyansh Tygai
+module typo(output reader)
+  $display("1TOPS project Progress by Divyansh Tyagi")
+endmodule
