@@ -27,10 +27,7 @@ task automatic check(input en, input mode, input [N-1:0] a);
     reg [N-1:0] expected;
 
     if (en&~mode)
-        expected = {a[N-1], a[N-1]^a[N-2], a[N-2]^a[N-3],
-                    a[N-3]^a[N-4], a[N-4]^a[N-5],
-                    a[N-5]^a[N-6], a[N-6]^a[N-7],
-                    a[1]^a[0]};
+        expected = {a[N-1], a[N-1]^a[N-2], a[N-2]^a[N-3], a[N-3]^a[N-4], a[N-4]^a[N-5], a[N-5]^a[N-6], a[N-6]^a[N-7], a[1]^a[0]};
     else if (en&mode)
         expected = gtb(a);
     else
