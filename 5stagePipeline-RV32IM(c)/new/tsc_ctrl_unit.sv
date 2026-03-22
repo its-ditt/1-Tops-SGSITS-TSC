@@ -1,23 +1,13 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 17.03.2026 17:50:41
-// Design Name: 
-// Module Name: tsc_ctrl_unit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+// Project Owner: Team Silicon Crystals (SGSITS Indore) [1-TOPS by VSI]        //
+// Engineer: Divyansh Tyagi                                                    //
+//                                                                             //
+// Create Date: 17-03-2026                                                     //
+// Design Name: Control Unit                                                   //
+// Module Name: tsc_ctrl-unit                                                  //
+// Project Name: TSCSoC                                                        //
+/////////////////////////////////////////////////////////////////////////////////
 
 
 module tsc_ctrl_unit (
