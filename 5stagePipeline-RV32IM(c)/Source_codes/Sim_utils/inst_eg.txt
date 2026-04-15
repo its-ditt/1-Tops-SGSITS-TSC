@@ -1,0 +1,17 @@
+Instrcution file example... [for usage: remove this line and all comments]
+00400093  // addi x1, x0, 4
+00600113  // addi x2, x0, 6
+002081B3  // add  x3, x1, x2
+00400213  // addi x4, x0, 4
+00118193  // addi x3, x3, 1
+FFF20213  // addi x4, x4, -1
+FE021CE3  // bne  x4, x0, -8
+00200293  // addi x5, x0, 2
+FFE18193  // addi x3, x3, -2
+FFF28293  // addi x5, x5, -1
+FE028CE3  // bne  x5, x0, -8
+00400313  // addi x6, x0, 4
+026181B3  // add  x3, x3, x6
+00500393  // addi x7, x0, 5
+0271C1B3  // xor  x3, x3, x7
+00000063  // beq  x0, x0, 0
